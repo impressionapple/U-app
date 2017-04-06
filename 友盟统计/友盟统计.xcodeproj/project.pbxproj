@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC20F093B5378F7A5D514959 /* libPods-友盟统计.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B74D2BB7F04BBDB777429E5A /* libPods-友盟统计.a */; };
+		FB2960041E96424E007EC717 /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2960031E96424E007EC717 /* oneViewController.m */; };
 		FBC6E42E1E8F426800CD6269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC6E42D1E8F426800CD6269 /* main.m */; };
 		FBC6E4311E8F426800CD6269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC6E4301E8F426800CD6269 /* AppDelegate.m */; };
 		FBC6E4341E8F426800CD6269 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC6E4331E8F426800CD6269 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 		1FFA87DB53259A03BED5D6C4 /* Pods-友盟统计.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-友盟统计.release.xcconfig"; path = "Pods/Target Support Files/Pods-友盟统计/Pods-友盟统计.release.xcconfig"; sourceTree = "<group>"; };
 		933B54E6B664972430D867B4 /* Pods-友盟统计.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-友盟统计.debug.xcconfig"; path = "Pods/Target Support Files/Pods-友盟统计/Pods-友盟统计.debug.xcconfig"; sourceTree = "<group>"; };
 		B74D2BB7F04BBDB777429E5A /* libPods-友盟统计.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-友盟统计.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2960021E96424E007EC717 /* oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		FB2960031E96424E007EC717 /* oneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
 		FBC6E4291E8F426800CD6269 /* 友盟统计.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "友盟统计.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC6E42D1E8F426800CD6269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBC6E42F1E8F426800CD6269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				FBC6E4301E8F426800CD6269 /* AppDelegate.m */,
 				FBC6E4321E8F426800CD6269 /* ViewController.h */,
 				FBC6E4331E8F426800CD6269 /* ViewController.m */,
+				FB2960021E96424E007EC717 /* oneViewController.h */,
+				FB2960031E96424E007EC717 /* oneViewController.m */,
 				FBC6E4351E8F426800CD6269 /* Main.storyboard */,
 				FBC6E4381E8F426800CD6269 /* Assets.xcassets */,
 				FBC6E43A1E8F426800CD6269 /* LaunchScreen.storyboard */,
@@ -137,7 +142,7 @@
 				TargetAttributes = {
 					FBC6E4281E8F426800CD6269 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 2V443T93A8;
+						DevelopmentTeam = YDDGQ3YALT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -229,6 +234,7 @@
 				FBC6E4341E8F426800CD6269 /* ViewController.m in Sources */,
 				FBC6E4311E8F426800CD6269 /* AppDelegate.m in Sources */,
 				FBC6E42E1E8F426800CD6269 /* main.m in Sources */,
+				FB2960041E96424E007EC717 /* oneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +355,7 @@
 			baseConfigurationReference = 933B54E6B664972430D867B4 /* Pods-友盟统计.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2V443T93A8;
+				DEVELOPMENT_TEAM = YDDGQ3YALT;
 				INFOPLIST_FILE = "友盟统计/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.alading.----";
@@ -362,7 +368,7 @@
 			baseConfigurationReference = 1FFA87DB53259A03BED5D6C4 /* Pods-友盟统计.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2V443T93A8;
+				DEVELOPMENT_TEAM = YDDGQ3YALT;
 				INFOPLIST_FILE = "友盟统计/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.alading.----";
@@ -389,6 +395,7 @@
 				FBC6E4421E8F426800CD6269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
